@@ -5,6 +5,6 @@ for i in range(int(a)+1,int(b)):
   for j in str(i):
     c=c+int(j)**len(str(i))
   if(i==c):
-    l.apprnd(i)
+    l.append(i)
   c=0
 print(*l)
