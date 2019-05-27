@@ -1,3 +1,6 @@
 a,b=map(int,input().split())
-c=a**b
+c=1
+for i in range(b):
+  c=c*a
 print(c)
+  
