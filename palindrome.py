@@ -1,5 +1,7 @@
 a=input()
-b=a[::-1]
+b=""
+for i in range(len(a),-1,-1):
+  b=b+a[i]
 if(a==b):
   print("yes")
 else:
