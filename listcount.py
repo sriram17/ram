@@ -13,4 +13,7 @@ for j in c:
   if count >1:
     d.append(j)
   count=0
-print(*sorted(d))
+if(len(d)==0):
+  print("unique")
+else:
+  print(*sorted(d))
