@@ -1,5 +1,5 @@
 n=int(input())
-a=list(int,input().split())
+a=list(map(int,input().split()))
 c=[]
 d=[]
 for i in a:
@@ -12,4 +12,5 @@ for j in c:
       count=count+1
   if count >1:
     d.append(j)
+  count=0
 print(*sorted(d))
