@@ -7,4 +7,5 @@ for i in range(0,N-1):
     if(a[j] in s ):
       k=k+a[j]
       a=k
+  k=""
 print(k)
