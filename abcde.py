@@ -13,7 +13,7 @@ for j in c:
   if count>1:
     ct=ct+1
   count=0
-if ct=0:
+if ct==0:
   print("unique")
 else:
   print(ct)
