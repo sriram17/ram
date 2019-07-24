@@ -1,8 +1,8 @@
 a=input()
-a=list(a)
+c=list(a)
 b=""
-for i in range(0,len(a)):
-    p=a.pop()
+for i in range(0,len(c)):
+    p=c.pop()
     b=b+p
 if(a==b):
     print("YES")
